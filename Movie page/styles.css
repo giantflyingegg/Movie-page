@@ -1,0 +1,32 @@
+body {
+    font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+..movCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: auto;
+    /* align-items: center; */
+}
+
+.contItem {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;    
+    width: 20vw;
+    border: solid black 2px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+margin-top: 0;
+margin-bottom: 1rem;
+}

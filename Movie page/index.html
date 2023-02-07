@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie data</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>The Wes Andersen Movie Page</h1>
+    <div id="movCont">
+        <select name="movselect" id="movselect">
+            <option id="tdl" value="The Darjeeling Limited">The Darjeeling Limited</option>
+            <option id="trt" value="The Royal Tenenbaums">The Royal Tenembaums</option>
+            <option id="fmf" value="Fantastic Mr. Fox">Fantastic Mr. Fox</option>
+            <option id="tgbh" value="The Grand Budapest Hotel">The Grand Budapest Hotel</option>
+        </select>
+        <div class="contItem">
+            <h2>Plot</h2>
+            <div id="Plot"></div>
+        </div>
+        <div class="contItem">
+            <h2>Cast</h2>
+            <div id="Cast"></div>
+        </div>
+        <div class="contItem">
+            <h2>Rating</h2>
+            <div id="Rating"></div>
+        </div>
+        <div class="contItem">
+            <h2>Year</h2>
+            <div id="Year"></div>
+        </div>
+        <div class="contItem">
+            <h2>Runtime</h2>
+            <div id="Runtime"></div>
+        </div>
+    </div>
+    //remove later
+    <form action="">
+        <fieldset>
+            <input type="text" id="practiceName">
+            <input type="text" name="keyVal" id="keyVal">
+            <input type="submit" id="practiceSubmit">      
+        </fieldset>
+    </form>
+    <div>
+    <p id="output"></p>
+    </div>
+    /// up to here
+    <form action="">
+        <fieldset>
+            <legend>Add your own Wes Andersen movie!</legend>
+            <input type="text" id="titInp" required placeholder="Title">
+            <input type="text" id="pltInp" required placeholder="Plot">
+            <input type="text" id="cstInp" required placeholder="Cast">
+            <input type="number" id="runInp" required placeholder="Runtime">
+            <input type="number" id="ratInp" required placeholder="Rating">
+            <input type="submit" id="subImp">
+        </fieldset>
+    </form>
+    //button to sort movies by rating
+    <button id="sortBtn"></button>
+    //search button
+    <form action="">
+        <fieldset>
+            <legend>Search for a movie</legend>
+            <input type="text" id="searchInp" required placeholder="Search">
+            <input type="submit" id="searchBtn">
+        </fieldset>     
+    <div id="movList"></div>
+<script src="Movies.js"></script>
+</body>
+//footer
+<footer>
+    <p>Created by: <a href="google.com"></a>
+</html>
